@@ -401,7 +401,7 @@ public class FileManager {
     }
 
     private void copy(String toFileName) throws IOException, Exception {
-        docopy("apex_doc_logo.png", toFileName);
+        docopy("mtb_doc_logo.jpg", toFileName);
         docopy("ApexDoc.css", toFileName);
         docopy("ApexDoc.js", toFileName);
         docopy("CollapsibleList.js", toFileName);
@@ -414,7 +414,10 @@ public class FileManager {
     public ArrayList<File> getFiles(String path) {
         File folder = new File(path);
         ArrayList<File> listOfFilesToCopy = new ArrayList<File>();
+
+        System.out.println("Output is happening");
         if (folder != null) {
+            System.out.println("Folder is not null!");
             File[] listOfFiles = folder.listFiles();
             if (listOfFiles != null && listOfFiles.length > 0) {
                 for (int i = 0; i < listOfFiles.length; i++) {

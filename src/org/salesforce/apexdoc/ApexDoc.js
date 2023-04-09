@@ -1,5 +1,5 @@
     // global variables
-    var listAllScope = ["global", "public", "private", "testMethod", "webService"];
+    var listAllScope = ["global", "public", "private", "protected", "testMethod", "webService"];
     
     // document ready function
     $(function () {  

@@ -8,7 +8,7 @@ body {
 
 /* the top page banner  */
 .topsection {
-    background-color: #003672;
+    background-color: #187918;
     width: 100%;
     height: 110px;
     color: white;
@@ -33,7 +33,7 @@ body {
 
 /* the horizontal section headers that declares the Class name */
 .section-title {
-    background-color: #003672; /* rgb(155,203,236); */
+    background-color: #187918; /* rgb(155,203,236); */
     color: white;
     font-size: 100%;
     font-weight: bold;
@@ -47,8 +47,8 @@ body {
 
 /* the horizontal section headers that declares the Methods & Properties subsections */
 .subsection-title {
-    color: #51638A;
-    border-top: 1px solid #51638A;
+    color: #187918;
+    border-top: 1px solid #187918;
     font-size: 100%;
     padding: 2px;
     margin: 0 0 12px 0;
@@ -61,8 +61,8 @@ body {
 /* the horizontal header for each Method */
 .methodHeader {
     font-size: 1em;
-    color: #51638A;
-    border-top: 1px solid #51638A;
+    color: #187918;
+    border-top: 1px solid #187918;
     margin: 20px 0 0 0;
     padding: 4px 0 2px 0;
 }

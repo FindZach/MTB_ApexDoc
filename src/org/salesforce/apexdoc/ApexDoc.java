@@ -51,7 +51,7 @@ public class ApexDoc {
     // public main routine which is used by both command line invocation and
     // Eclipse PlugIn invocation
     public static void RunApexDoc(String[] args, IProgressMonitor monitor) {
-        String sourceDirectory = "";
+        String sourceDirectory = "D:\\Programming\\Salesforce\\Trailheads\\Playgrounds\\FindZach\\force-app\\main\\default\\classes";
         String targetDirectory = "";
         String homefilepath = "";
         String authorfilepath = "";
@@ -63,6 +63,7 @@ public class ApexDoc {
             if (args[i] == null) {
                 continue;
             } else if (args[i].equalsIgnoreCase("-s")) {
+                System.out.println("Setting Source...");
                 sourceDirectory = args[++i];
             } else if (args[i].equalsIgnoreCase("-g")) {
                 hostedSourceURL = args[++i];
@@ -83,10 +84,12 @@ public class ApexDoc {
 
         // default scope to global and public if not specified
         if (rgstrScope == null || rgstrScope.length == 0) {
-            rgstrScope = new String[3];
+            rgstrScope = new String[5];
             rgstrScope[0] = "global";
             rgstrScope[1] = "public";
             rgstrScope[2] = "webService";
+            rgstrScope[3] = "protected";
+            rgstrScope[4] = "private";
         }
 
         // find all the files to parse

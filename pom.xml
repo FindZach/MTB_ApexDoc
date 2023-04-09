@@ -42,7 +42,7 @@
 		  <archive>
 			<manifest>
 				<!-- Jar file entry point -->
-				<mainClass>org.salesforce.apexdoc.ApexDoc</mainClass>
+				<mainClass>org.mtb.apexdoc.ApexDoc</mainClass>
 			</manifest>
 		  </archive>
 		</configuration>

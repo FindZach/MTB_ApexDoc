@@ -1,4 +1,4 @@
-package org.salesforce.apexdoc;
+package org.mtb.apexdoc;
 
 import java.io.BufferedReader;
 import java.io.DataInputStream;

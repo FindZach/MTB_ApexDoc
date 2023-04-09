@@ -1,4 +1,4 @@
-package org.salesforce.apexdoc;
+package org.mtb.apexdoc;
 
 public class IProgressMonitor {
 
